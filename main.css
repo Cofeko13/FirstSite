@@ -1,0 +1,153 @@
+:root{
+    --height: 100%;
+}
+html, body{
+    margin:0px;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+
+}
+.logo_img{
+    width: 180px;
+    height: 58px;
+    margin: 10px;
+}
+.katalog{
+    width: 180px;
+    height: 58px;
+    margin: 10px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+#right_div{
+    width: 50px;
+    height: 58px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+#right_div:hover{
+    width: 50px;
+    height: 58px;
+    margin: 10px;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.search_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px;
+}
+.search_input{
+    margin: 3px;
+    width: 750px;
+    height: 36px;
+    border-radius: 5px;
+    border: 2px rgb(255, 255, 255);
+}
+.search_button{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.kategorii{
+    z-index: 100;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+#kategorii_div{
+    margin: 10px;
+}
+.aside{
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: self-start;
+    align-items: self-start;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1720px;
+    height: auto;
+    margin-left: 230px;
+}
+#segment{
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(241, 242, 245);
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+#segment1{
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(241, 242, 245);
+    margin: 30px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+#img{
+    border-radius: 10px;
+    margin-top: 18px;
+}
+#segmText{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#segmLink{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+}
+/* .test{
+    width: minmax(300px,700px);
+    height: 3000px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,255,1) 35%, rgba(0,212,255,1) 100%)
+} */
